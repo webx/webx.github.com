@@ -19,6 +19,9 @@ body {
     right:20px;
     height:1.5em;
 }
+#footer {
+    font-size: small;
+}
 #content {
     background-color: #E1EBF2;
     padding: 20px;
@@ -41,7 +44,7 @@ a[href] {
 a[href]:link,a[href]:visited {
 }
 a[href]:hover,a[href]:active {
-    font-weight: bold
+    text-decoration:underline;
 }
 p {
     text-align: justify;
