@@ -49,6 +49,12 @@ a[href]:hover,a[href]:active {
 p {
     text-align: justify;
 }
+li {
+    margin:5px 0;
+}
+li p {
+    margin:0;
+}
 img {
     border: 0;
     vertical-align: baseline;
