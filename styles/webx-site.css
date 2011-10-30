@@ -36,14 +36,20 @@ dl#content>dt {
 dl#content>dd {
     margin:1em 0 1.5em 2em;
 }
+.curved {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    behavior: url(styles/border-radius.htc);
+}
 a[href] {
     color: #000099;
     background-color: inherit;
     text-decoration: none;
 }
-a[href]:link,a[href]:visited {
+a[href]:link, a[href]:visited {
 }
-a[href]:hover,a[href]:active {
+a[href]:hover, a[href]:active {
     text-decoration:underline;
 }
 p {
