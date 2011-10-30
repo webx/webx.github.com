@@ -32,6 +32,7 @@ dl#content>dt {
     margin:1em 0;
     font-weight:bolder;
     border-bottom:thin solid #C1CBA2;
+    color:navy;
 }
 dl#content>dd {
     margin:1em 0 1.5em 2em;
